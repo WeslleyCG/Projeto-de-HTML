@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+</head>
+<body>
+    <header>
+        <h1>Contato</h1>
+        <nav>
+            <h3>Ir direto para:</h3>
+            <a href="../index.html">Início</a><br>
+            <a href="sobre.html">Saiba Mais</a><br>
+            <a href="loja.html">Loja</a>
+        </nav>
+    </header>
+    <main>
+        <form>
+        <h3>Preencha os dados abaixo:</h3>
+        <label for="ipt-nome">Nome:</label>
+        <input 
+            type="text"
+            name="nome"
+            id="ipt-nome"
+            placeholder="ex: João"
+            required
+        /><br>
+        <label for="ipt-email">Email:</label>
+        <input
+            type="email"
+            name="email"
+            id="ipt-email"
+            placeholder="ex: joao17@gmail.com"
+        /><br>
+        <label for="ipt-fone">Fone:&nbsp;&nbsp;</label>
+        <input
+            type="number"
+            name="fone"
+            id="ipt-fone"
+            placeholder="ex: 988887777"
+            required
+        /><br><br>
+        <label for="ipt-mensagem">Mensagem:</label><br>
+        <textarea 
+            name="mensagem"
+            id="ipt-mensagem"
+            rows="5"
+            cols="50"
+            placeholder="Digite sua mensagem..."    
+        ></textarea><br>
+        <button type="submit">Enviar</button>
+    </form><br>
+    </main>
+    <footer>
+        <hr>
+        Desenvolvido por <a href="https://github.com/WeslleyCG?tab=repositories">WeslleyCG</a>
+    </footer>
+</body>
+</html>
